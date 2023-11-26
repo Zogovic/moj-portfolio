@@ -1,0 +1,106 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.contact-section {
+    background-color: #3f5f81;
+    color: #774949;
+    padding: 40px 0;
+}
+
+.form-label,
+.text-center {
+    color: #fff;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+img {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.oblast1 {
+    padding: 15px;
+    margin-right: 700px;
+}
+
+.oblast2 {
+    margin-left: 330px;
+    margin-right: 330px;
+    padding: 15px;
+}
+
+.naslov2 {
+    text-align: center;
+}
+
+.oblast3 {
+    padding: 15px;
+    margin-left: 700px;
+}
+
+.naslov3 {
+    margin-left: 520px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .oblast1 {
+        margin-right: 5%;
+    }
+
+    .oblast3,
+    .oblast2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .naslov3,
+    .naslov1 {
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .oblast1 {
+        margin-right: 5%;
+    }
+
+    .oblast3,
+    .oblast2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .naslov3,
+    .naslov1 {
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .oblast1 {
+        margin-right: 5%;
+    }
+
+    .oblast3 {
+        margin-left: 2%;
+        padding: 10px;
+    }
+
+    .naslov3,
+    .naslov1 {
+        margin-left: auto;
+        text-align: center;
+    }
+}
